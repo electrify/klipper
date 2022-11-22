@@ -56,7 +56,7 @@ BOARD_DEFS = {
         'spi_bus': "swspi",
         'spi_pins': "PC8,PD2,PC12",
         'cs_pin': "PC11",
-        'sdio_bus':  'sdio'
+        'skip_verify': True
     },
     'btt-octopus-f446-v1': {
         'mcu': "stm32f446xx",
